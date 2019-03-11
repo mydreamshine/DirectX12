@@ -93,7 +93,7 @@ public:
 	}
 
 	// Returns Identity float(4x4).
-	static DirectX::XMFLOAT4X4 Identity()
+	static DirectX::XMFLOAT4X4 Identity4x4()
 	{
 		DirectX::XMFLOAT4X4 I(
 			1.0f, 0.0f, 0.0f, 0.0f,
